@@ -19,8 +19,8 @@ export const experience = [
   {
     title: "Student Internship in the R&D Department",
     company: "Bira",
-    period: "07.2022 - 09.2022",
-    tasks: [
+    period: "July 2022 - September 2022",
+    description: [
       "Creating and updating technical documentation",
       "Designing and manufacturing small devices, structures, and prototypes",
       "Learning to operate a lathe, 3D printer, and milling machine",

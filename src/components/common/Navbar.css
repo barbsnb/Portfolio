@@ -10,16 +10,6 @@
   border-bottom: 1px solid rgb(99, 99, 99); 
 }
 
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  transform: scale(1.1);
-  color: #1e90ff;
-}
-
 .navbar button {
   background: none;
   border: none;
@@ -32,5 +22,5 @@
 
 .navbar button:hover {
   transform: scale(1.1);
-  color: #1e90ff;
+  color: #ffae52;
 }

@@ -9,7 +9,11 @@ export default function Experience() {
           <li key={i}>
             <h3>{job.title} — {job.company}</h3>
             <p>{job.period}</p>
-            <p>{job.description}</p>
+            <ul>
+              {job.description.map((task, index) => (
+                <li key={index}>{task}</li>
+              ))}
+            </ul>
           </li>
         ))}
       </ul>
