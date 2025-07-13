@@ -1,0 +1,36 @@
+.navbar {
+  background: #181818;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  height: 1.2rem;
+  border-bottom: 1px solid rgb(99, 99, 99); 
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+  color: #1e90ff;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.navbar button:hover {
+  transform: scale(1.1);
+  color: #1e90ff;
+}
